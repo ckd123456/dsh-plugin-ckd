@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/plugin.schema.json",
+  "id": "dsh-plugin-ckd",
+  "name": "dsh-plugin-ckd",
+  "version": "0.1.0",
+  "description": "dsh plugin scaffold by ckd123456",
+  "author": "ckd123456",
+  "license": "MIT",
+  "entry": "src/index.js",
+  "type": "opencode-plugin",
+  "engines": {
+    "opencode": ">=1.18.0"
+  },
+  "tools": [
+    "dsh_hello"
+  ]
+}
