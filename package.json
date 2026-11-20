@@ -1,0 +1,26 @@
+{
+  "name": "dsh-plugin-ckd",
+  "version": "0.1.0",
+  "description": "dsh plugin scaffold by ckd123456",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "plugin.json",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "plugin",
+    "deepworks",
+    "opencode"
+  ],
+  "author": "ckd123456",
+  "license": "MIT",
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.18.0"
+  }
+}
